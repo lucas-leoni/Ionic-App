@@ -25,6 +25,7 @@
       <div id="container">
         <div class="container">
           <ion-button href="/home">Home</ion-button>
+          <ion-button href="/idade">Idade</ion-button>
         </div>
       </div>
     </ion-content>

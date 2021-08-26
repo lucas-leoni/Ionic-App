@@ -48,7 +48,8 @@ import {
     IonToolbar,
     IonButton,
     IonItem,
-    IonLabel
+    IonLabel,
+    IonInput
 } from '@ionic/vue';
 import { defineComponent } from 'vue';
 
@@ -62,7 +63,8 @@ export default defineComponent({
     IonToolbar,
     IonButton,
     IonItem,
-    IonLabel
+    IonLabel,
+    IonInput
   }
 });
 </script>
