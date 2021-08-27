@@ -30,7 +30,7 @@
               <ion-input type="date" v-model="valorInput"></ion-input>
             </ion-item>
             <ion-button expand="block" @click="calcularIdade">Calcular Idade</ion-button>
-            <ion-card>
+            <ion-card class="card">
               <ion-card-header>
                 <ion-card-title>{{idade}}</ion-card-title>
               </ion-card-header>
@@ -123,7 +123,7 @@ export default defineComponent({
   margin: 0px 0px 40px 0px;
 }
 
-ion-button {
-  margin: 0px 0px 40px 0px;
+.card {
+  margin: 40px 0px 0px 0px;
 }
 </style>
